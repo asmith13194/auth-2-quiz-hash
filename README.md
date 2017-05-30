@@ -12,4 +12,4 @@ Solution: Use a hashing algorithm. For added protection combine user passwords w
 
 > You are tasked for creating a RFP (request for proposal) for a new cryptographic hashing algorithm.  What requirements would you put in place for this new algorithm.
 
-Requirements: No matter length of password hash always returns the same length. Small changes drastically change result, and even if the same password is used it generates a different hash.
+Requirements: No matter length of password hash always returns the same length. Small changes drastically change result, and even if the same password is used it generates the same hash but because each salt added is different, two users using the same password will create different hashes.
